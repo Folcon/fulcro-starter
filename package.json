@@ -1,0 +1,20 @@
+{
+  "name": "fulcro-starter",
+  "version": "1.0.0",
+  "description": "A small starter project for Fulcro beginners",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Folcon/fulcro-starter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Folcon/fulcro-starter/issues"
+  },
+  "homepage": "https://github.com/Folcon/fulcro-starter#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "shadow-cljs": "^2.9.2"
+  }
+}

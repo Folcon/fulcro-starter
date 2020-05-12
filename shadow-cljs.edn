@@ -1,0 +1,9 @@
+{:deps     {:aliases [:dev]}
+ :dev-http {8000 "resources/public"}
+ :builds   {:main {:target     :browser
+                   :output-dir "resources/public/js/main"
+                   :asset-path "/js/main"
+                   :modules    {:main {:init-fn fulcro-starter.client/init
+                                       :entries [fulcro-starter.client]}}
+                   :devtools   {:after-load fulcro-starter.client/refresh
+                                :preloads   [com.fulcrologic.fulcro.inspect.preload]}}}}
