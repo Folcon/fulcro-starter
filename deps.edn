@@ -5,4 +5,5 @@
  :aliases {:dev {:extra-paths ["src/dev"]
                  :extra-deps  {org.clojure/clojurescript   {:mvn/version "1.10.741"}
                                thheller/shadow-cljs        {:mvn/version "2.9.2"}
-                               binaryage/devtools          {:mvn/version "1.0.0"}}}}}
+                               binaryage/devtools          {:mvn/version "1.0.0"}
+                               com.wsscode/pathom          {:mvn/version "2.3.0-alpha9"}}}}}
